@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootStrap5-css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FontAwesome-css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>QR Code Scanner or Reader </title>
+    <!-- Js files -->
+    <script src="js/bootstrap.min.js" defer></script>
+    <script src="js/countries.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body class="d-flex justify-content-center align-items-center vh-100">
+    <div class="container bg-light p-2 rounded-3 ">
+        <div class="mt-2 border border-2">
+            <div class="text-input d-flex border-bottom border-dark">
+                <textarea class="from-text w-100 border-0 p-2" placeholder="Enter text"></textarea>
+                <textarea class="to-text border-start border-dark w-100 border-0 p-2" placeholder="Translation"></textarea>
+            </div>
+            <ul class="controls  d-flex justify-content-between align-items-center px-3 p-2 m-auto">
+                <li class="from w-25 d-flex">
+                    <div class="icons d-flex border-end border-secondary ">
+                        <i id="from" class="bi bi-volume-up d-flex justify-content-center align-items-center"></i>
+                        <i id="from" class="bi bi-clipboard d-flex justify-content-center align-items-center"></i>
+                    </div>
+                    <select></select>
+                </li>
+                <li class="list-inline"><i class="fa fa-exchange-alt" ></i>
+                </li>
+                <li class="from w-25 d-flex justify-content-end">
+                    <select></select>
+                    <div class="icons d-flex border-start border-secondary">
+                        <i id="to" class="bi bi-volume-up d-flex justify-content-center align-items-center"></i>
+                        <i id="to" class="bi bi-clipboard d-flex justify-content-center align-items-center"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-end">
+        <button class="w-25 p-3 mt-2 text-light fw-bold border-0 rounded-3 btn-primary btn-outline-dark">Translate Text</button>
+        </div>
+    </div>
+</body>
+<footer class="text-center position-absolute text-light bottom-0 user-select-none">
+    <h6>Copyright © 2023 Jasser BenAbdallah All rights reserved </h6>
+</footer>
+</html>
