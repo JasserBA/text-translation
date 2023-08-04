@@ -6,7 +6,7 @@
 #### Click to see full GIF
 ![QR Code Generator](img/text-translation.gif)
 
-# QR Code Generator Readme
+# Text-translation Readme
 
 This is a simple project that allows users to translate text from one language to another using the Google Translate API. The project is implemented using HTML, Bootstrap 5 for styling, and JavaScript for handling user interactions.
 
