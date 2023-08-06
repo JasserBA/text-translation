@@ -4,7 +4,7 @@
 ### https://jasserba.github.io/text-translation/
 
 #### Click to see full GIF
-![QR Code Generator](img/text-translation.gif)
+![Text translation](img/text-translation.gif)
 
 # Text-translation Readme
 
